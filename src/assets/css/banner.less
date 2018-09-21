@@ -1,0 +1,51 @@
+.banner{
+  display:flex;
+  width:100%;
+  overflow:hidden;
+  margin-top: 10px;
+}
+.banner-side{
+  width:15%;
+  min-height: 20px;
+  background-color:black;
+  opacity: .4;
+  position: relative;
+  z-index: 5;
+}
+.banner-middle{
+  width: 70%;
+  min-height: 20px;
+  position: relative;
+}
+.banner-track{
+  display: flex;
+  transition: left .3s ease;
+  position: relative;
+  z-index:0;
+  left:0;
+}
+.item{
+  margin-left: 5px;
+  margin-right:5px;
+}
+.item-image{
+  width:100%;
+}
+.all-title{
+  display: block;
+  width: ~"calc(100% - 20px)";
+  position: absolute;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  bottom: 12%;
+  text-align:center;
+  z-index:7;
+  margin:0;
+  padding:0;
+  font-size:1.2rem;
+  margin:10px;
+  font-weight:bold;
+}
+.shadow{
+  box-shadow: 2px 2px 2px grey;
+}
